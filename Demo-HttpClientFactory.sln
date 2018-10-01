@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-HttpClientFactory", "Demo-HttpClientFactory\Demo-HttpClientFactory.csproj", "{C47DFC8A-4899-4D90-A096-49EA7F0F30AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicHttpClient", "BasicHttpClient\BasicHttpClient.csproj", "{1325C902-20C2-4B14-BF4E-700D65DA23E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingHttpClientFactoryDirectly", "UsingHttpClientFactoryDirectly\UsingHttpClientFactoryDirectly.csproj", "{22B0C1CF-08D7-46BA-92BD-CFB5C106957B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedClients", "NamedClients\NamedClients.csproj", "{0E1E95AC-0B4E-48E5-8BCA-93E6021F0B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypedClient", "TypedClient\TypedClient.csproj", "{59A8DFA8-300C-49EE-924E-F8B65DA8C457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandleTransientFaultWithPolly", "HandleTransientFaultWithPolly\HandleTransientFaultWithPolly.csproj", "{059BDB67-1AE4-45BB-8CA5-DB961CF4BE61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C47DFC8A-4899-4D90-A096-49EA7F0F30AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C47DFC8A-4899-4D90-A096-49EA7F0F30AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C47DFC8A-4899-4D90-A096-49EA7F0F30AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C47DFC8A-4899-4D90-A096-49EA7F0F30AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1325C902-20C2-4B14-BF4E-700D65DA23E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1325C902-20C2-4B14-BF4E-700D65DA23E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1325C902-20C2-4B14-BF4E-700D65DA23E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1325C902-20C2-4B14-BF4E-700D65DA23E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B0C1CF-08D7-46BA-92BD-CFB5C106957B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B0C1CF-08D7-46BA-92BD-CFB5C106957B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B0C1CF-08D7-46BA-92BD-CFB5C106957B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B0C1CF-08D7-46BA-92BD-CFB5C106957B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E1E95AC-0B4E-48E5-8BCA-93E6021F0B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1E95AC-0B4E-48E5-8BCA-93E6021F0B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1E95AC-0B4E-48E5-8BCA-93E6021F0B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1E95AC-0B4E-48E5-8BCA-93E6021F0B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A8DFA8-300C-49EE-924E-F8B65DA8C457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A8DFA8-300C-49EE-924E-F8B65DA8C457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A8DFA8-300C-49EE-924E-F8B65DA8C457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A8DFA8-300C-49EE-924E-F8B65DA8C457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{059BDB67-1AE4-45BB-8CA5-DB961CF4BE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059BDB67-1AE4-45BB-8CA5-DB961CF4BE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059BDB67-1AE4-45BB-8CA5-DB961CF4BE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059BDB67-1AE4-45BB-8CA5-DB961CF4BE61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
